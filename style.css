@@ -1,0 +1,93 @@
+body{
+    background: #bdc3c7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-transform: capitalize;
+}
+.heading{
+    text-align: center;
+    margin-top: 100px;
+    color: white;
+
+}
+.box{
+    width: 40%;
+    min-width: 450px;
+    position: absolute;
+    transform: translate(-50%,-90%);
+    top: 50%;
+    left: 50%;
+    padding: 30px 40px;
+}
+#newtask{
+    background-color: white;
+    padding: 30px 20px;
+    border-radius: 5px;
+    box-shadow: 0 15px 30px rgb(2, 2, 2);
+}
+#newtask input{
+    width: 70%;
+    height: 45px;
+    font-size: 15px;
+    font-weight: 500;
+    border: 2px solid rgb(216, 173, 173);
+    padding: 12px;
+    border-radius: 5px;
+
+}
+#newtask input:focus{
+    outline: none;
+    border-color: orange;
+}
+
+#newtask button{
+    margin-left: 15px;
+    width: 20%;
+    height: 72px;
+    border-radius: 5px;
+    border: none;
+    background-color: gray;
+    color: white;
+    font: 16px;
+    font-weight: 500;
+    cursor: pointer;
+
+} 
+#tasks{
+    background-color: rgb(254, 249, 249);
+    box-shadow: 0 15px 30px gray;
+    border-radius: 10px;
+    padding: 30px 20px;
+    margin-top: 30px;
+
+
+}
+.task{
+    background-color: rgb(255, 255, 255);
+    height: 50px;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(211, 68, 12);
+    cursor: pointer;
+}
+.task span{
+    font-size: 15px;
+    font-weight: 500;
+}
+.task button{
+    background-color: rgb(83, 88, 78);
+    color: white;
+    height: 100%;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+
+
+}
+.completed{
+    text-decoration: line-through;
+}
